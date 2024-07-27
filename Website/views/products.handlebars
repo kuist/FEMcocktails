@@ -1,0 +1,12 @@
+<h1>Our Products</h1>
+<div class="product-grid">
+    {{#each products}}
+        <div class="product-card">
+            <img src="{{this.image}}" alt="{{this.name}}">
+            <h3>{{this.name}}</h3>
+            <p>{{this.description}}</p>
+            <p>Price: ${{this.price}}</p>
+            <button onclick="addToCart({{this.id}})">Add to Cart</button>
+        </div>
+    {{/each}}
+</div>
