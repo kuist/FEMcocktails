@@ -56,3 +56,34 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+  }
+  
+  .slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev { left: 10px; }
+  .next { right: 10px; }

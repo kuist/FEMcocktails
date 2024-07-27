@@ -1,0 +1,6 @@
+{
+    "watch": ["C:\\Users\\ALEX\\Desktop\\FEM Beverages\\app.js", "routes/", "models/", "config/"],
+    "ext": "js,json",
+    "ignore": ["node_modules/"],
+    "exec": "node C:\\Users\\ALEX\\Desktop\\FEM Beverages\\app.js"
+  }
